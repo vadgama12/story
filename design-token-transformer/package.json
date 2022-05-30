@@ -1,0 +1,24 @@
+{
+  "name": "agosh-design-token-transformer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "generate": "npm run build-tokens && npm run export-ts",
+    "build-tokens": "node ./transformTokens.js",
+    "export-ts": "node ./index.js"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/react": "^17.0.39",
+    "@types/styled-components": "^5.1.22",
+    "style-dictionary": "^3.1.1"
+  },
+  "prettier": {
+    "singleQuote": false,
+    "tabWidth": 2,
+    "semi": false
+  }
+}

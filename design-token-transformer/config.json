@@ -1,0 +1,13 @@
+{
+  "source": ["m3-tokens/*.json"],
+  "platforms": {
+    "js": {
+      "transformGroup": "custom/js",
+      "buildPath": "dist/js/",
+      "files": [{
+        "destination": "generated-tokens.js",
+        "format": "javascript/es6"
+      }]
+    }
+  }
+}
